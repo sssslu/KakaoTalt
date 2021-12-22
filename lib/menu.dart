@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:kakaotalt/wallet.dart';
+import 'package:kakaotalt/spinningWallet.dart';
+
 
 class Menu extends StatelessWidget {
   static String routeName = "/menu";
@@ -19,7 +20,7 @@ class Menu extends StatelessWidget {
             fit: BoxFit.cover,
           ),
           onTap: () {
-            Navigator.pushNamedAndRemoveUntil(context, Wallet.routeName, (route) => false);
+            Navigator.pushNamedAndRemoveUntil(context, SWallet.routeName, (route) => false);
           },
         ),
       ),
