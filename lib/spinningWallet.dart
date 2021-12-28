@@ -3,31 +3,6 @@ import 'package:kakaotalt/wallet.dart';
 
 import 'final.dart';
 
-/*class SWallet extends StatelessWidget {
-  static String routeName = "/swallet";
-
-  const SWallet({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    // You have to call it on your starting screen
-    return Scaffold(
-      body: SizedBox(
-        width: MediaQuery.of(context).size.width,
-        height: MediaQuery.of(context).size.height,
-        child: InkWell(
-          child: Image.asset(
-            "KakaoTalt!/3s.jpg",
-            fit: BoxFit.fill,
-          ),
-          */ /*onTap: () {
-            Navigator.pushNamedAndRemoveUntil(context, Wallet.routeName, (route) => false);
-          },*/ /*
-        ),
-      ),
-    );
-  }
-}*/
 
 class SWallet extends StatefulWidget {
   const SWallet({Key? key}) : super(key: key);
@@ -55,6 +30,7 @@ class SW extends State<SWallet> {
               //decoration 을 준다.
               image: DecorationImage(
             image: AssetImage("KakaoTalt!/3s.jpg"),
+                fit: BoxFit.cover,
           )),
           width: MediaQuery.of(context).size.width,
           height: MediaQuery.of(context).size.height,

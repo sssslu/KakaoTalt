@@ -16,7 +16,7 @@ class Wallet extends StatelessWidget {
         height: MediaQuery.of(context).size.height,
         child: InkWell(
           child: Image.asset(
-            "KakaoTalt!/3-최성욱.jpg",
+            "KakaoTalt!/3-original.jpg",
             fit: BoxFit.cover,
           ),
           onTap: () {
