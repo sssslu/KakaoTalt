@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
-
 import 'final.dart';
 
 class Wallet extends StatelessWidget {
-  static String routeName = "/wallet";
-
   const Wallet({Key? key}) : super(key: key);
+  static String routeName = "/wallet";
 
   @override
   Widget build(BuildContext context) {

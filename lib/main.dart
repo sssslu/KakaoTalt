@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kakaotalt/routes.dart';
 import 'package:kakaotalt/splash.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -8,7 +9,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -16,7 +16,10 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       initialRoute: SplashScreen.routeName,
       routes: routes,
-      theme: ThemeData(backgroundColor: Colors.black, primaryColor: Colors.black, ),
+      theme: ThemeData(
+        backgroundColor: Colors.black,
+        primaryColor: Colors.black,
+      ),
     );
   }
 }

@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:kakaotalt/spinningWallet.dart';
 import 'package:kakaotalt/splash.dart';
 import 'package:kakaotalt/wallet.dart';
-
 import 'final.dart';
 import 'menu.dart';
 

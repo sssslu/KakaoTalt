@@ -20,7 +20,6 @@ class SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // You have to call it on your starting screen
     return Scaffold(
       body: SizedBox(
         width: MediaQuery.of(context).size.width,

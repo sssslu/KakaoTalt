@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 
 class Final extends StatelessWidget {
-  static String routeName = "/final";
-
   const Final({Key? key}) : super(key: key);
+  static String routeName = "/final";
 
   @override
   Widget build(BuildContext context) {
-    // You have to call it on your starting screen
     return Scaffold(
       body: SizedBox(
         width: MediaQuery.of(context).size.width,

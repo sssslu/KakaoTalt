@@ -1,15 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:kakaotalt/spinningWallet.dart';
 
-
 class Menu extends StatelessWidget {
-  static String routeName = "/menu";
-
   const Menu({Key? key}) : super(key: key);
+  static String routeName = "/menu";
 
   @override
   Widget build(BuildContext context) {
-    // You have to call it on your starting screen
     return Scaffold(
       body: SizedBox(
         width: MediaQuery.of(context).size.width,

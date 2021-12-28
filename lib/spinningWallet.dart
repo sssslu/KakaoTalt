@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kakaotalt/wallet.dart';
 
-import 'final.dart';
-
-
 class SWallet extends StatefulWidget {
   const SWallet({Key? key}) : super(key: key);
   static String routeName = "/swallet";
@@ -23,14 +20,13 @@ class SW extends State<SWallet> {
 
   @override
   Widget build(BuildContext context) {
-    // You have to call it on your starting screen
     return Scaffold(
       body: Container(
           decoration: const BoxDecoration(
               //decoration 을 준다.
               image: DecorationImage(
             image: AssetImage("KakaoTalt!/3s.jpg"),
-                fit: BoxFit.cover,
+            fit: BoxFit.cover,
           )),
           width: MediaQuery.of(context).size.width,
           height: MediaQuery.of(context).size.height,
